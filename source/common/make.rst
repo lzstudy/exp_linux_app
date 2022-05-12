@@ -1,12 +1,10 @@
 Makefile
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+
 编译应用程序模板
-----------------------------------------
-
-使用条件
-    同级目录创建barcode_reader.c
-
+    - 同级目录创建barcode_reader.c
+    - 下面的代码拷贝到Makefile中, 执行make即可
 
 ::
 
@@ -24,7 +22,7 @@ Makefile
 
     # 编译头文件路径
     INC		= -I../common \
-                   -I../../../../mpp-app/include/mpp/system/include/
+                    -I../../../../mpp-app/include/mpp/system/include/
 
     # 可执行文件的名字
     TAG_ELF	= barcode_reader
